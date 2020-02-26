@@ -1,5 +1,5 @@
 # Use the httpd-parent image as base
-ROM quay.io/redhattraining/httpd-parent
+FROM quay.io/redhattraining/httpd-parent
 
 # Change the port to 8080
 EXPOSE 8080
